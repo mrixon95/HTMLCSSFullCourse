@@ -1,0 +1,23 @@
+html{
+	/*background: linear-gradient(red, yellow);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;*/
+
+	color: white;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("space.jpg");
+	background-attachment: fixed;
+
+}
+
+h1 {
+	background: linear-gradient(red,orange,yellow, green, blue, indigo, violet);
+}
+
+#myText {
+	background: linear-gradient(to right, grey,black);
+}

@@ -1,0 +1,19 @@
+p{
+	border-style: outset;
+	padding-top: 20px;
+	padding-left: 20px;
+	border-width: 5px 5px 2px 2px;
+	border-color: #00FF00;
+	border-radius: 15px;
+	border-bottom-style: dotted;
+}
+
+h1 {
+
+	border-top-style: dashed;
+	border-left-style: solid;
+	border-left-color: red;
+	border-right-style: dashed;
+	border-right-width: 10px;
+	border-bottom-style: dotted;
+}

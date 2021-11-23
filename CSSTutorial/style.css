@@ -1,0 +1,17 @@
+body {
+	background-color: #000000
+}
+
+p{
+	font-family: 'Comforter', cursive;
+	font-style:italic;
+	font-weight: bold;
+	font-size: 2em;
+	text-decoration: underline wavy blue;
+	color: #00ff00;
+	background-color: #124521;
+}
+
+h1 {
+	font-family: 'Comforter', cursive;
+}

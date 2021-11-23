@@ -1,0 +1,53 @@
+#p1 {
+	width: 100px;
+	height: 100px;
+	font-size: 85px;
+	text-align: center;
+	background: red;
+	margin: 0px;
+}
+
+#p1:hover {
+	animation: myFont;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	}
+
+
+@keyframes mymove {
+  0% {background: red;}
+  20% {background: orange;}
+  40% {background: blue;}
+  60% {background: yellow;}
+  80% {background: green;}
+  100% {background: purple;}
+}
+
+@keyframes myRotateAnimation {
+  100% {transform: rotateY(360deg);}
+
+}
+
+@keyframes myTranslate {
+  50% {transform: translate(100px,100px);}
+
+}
+
+@keyframes myScale {
+  50% {transform: scale(4,2);}
+
+}
+
+@keyframes myOpacity {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+
+}
+
+@keyframes myFont {
+  0% {font-size: 85px;}
+  50% {font-size: 400px;}
+  100% {font-size: 85px;}
+
+}
